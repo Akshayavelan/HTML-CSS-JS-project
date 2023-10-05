@@ -50,6 +50,6 @@ function update(){
 
     time.textContent=`${hrs}:${mins}:${secs}`;
     function add(unit){
-        return ("0"+unit.length>2)?unit:"0"+unit;
+        return (("0")+unit).length>2?unit:"0"+unit;
     }
 }
