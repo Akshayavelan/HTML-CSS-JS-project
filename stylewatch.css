@@ -1,0 +1,36 @@
+#timeContainer{
+    text-align: center;
+    border: 5px solid;
+    border-radius: 80px;
+    border-width: 15px;
+    background-color: #ce24d1;
+    border-color: #370238;
+    width: 600px;
+    height: 170px;
+    margin-left: 450px;
+}
+#time{
+    font-size: 120px;
+    font-family: consolas, monospace;
+    color: #370238;
+}
+.btn{
+    font-family: consolas, monospace;
+    font-size: medium;
+    border-radius: 15px;
+    background-color: #e181e3;
+    font-weight: bold;
+    border: 3px solid;
+    color: black ;
+}
+
+body{
+    background-color: pink;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #370238;
+    font-family: consolas, monospace;
+    
+}
