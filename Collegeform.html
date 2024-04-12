@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application form</title>
+    <link rel="stylesheet" href="Collegeform.css">
+</head>
+<body>
+    <!--HEADER SECTION-->
+    <header style="text-align: center;" id="heading"><h1>College Application Form</h1></header>
+
+    <!--MAIN FORM-->
+    <form name="form-container" class="FormEdit">
+         <label>FIRST NAME    :</label>
+         <input type="text" required placeholder="first name" id="inputstyle"><br><br>
+         <label>LAST NAME     :</label>
+         <input type="text" required placeholder="last name" id="inputstyle">
+         <br><br>
+         <label>ADDRESS       :</label><br>
+         <textarea name="address"cols="35" rows="" required placeholder="street no, area, city, zipcode" id="inputstyle"></textarea>
+         <br><br>
+         <label >PHONE NUMBER :</label>
+         <input type="text" placeholder="phone number" id="inputstyle"><br><br>
+         <label >ALT NUMBER   :</label>
+         <input type="text" placeholder="phone number" id="inputstyle">
+         <br><br>
+         <label>DATE OF BIRTH :</label>
+         <input type="datetime-local" id="inputstyle">
+         <br><br>
+         <label>EMAIL  :</label>
+         <input type="email" placeholder="@gmail.com" required id="inputstyle">
+         <br><br>
+         <label>PASSWORD :</label>
+         <input type="password" placeholder="As@.!125" required id="inputstyle">
+         <p><em>Select Payment Method</em></p>
+         <label>CARD</label>
+         <input type="radio" name="opt" id="inputstyle">
+         <label>UPI</label>
+         <input type="radio" name="opt" id="inputstyle">
+         <br><br>
+         <select name="payment method" required id="inputstyle">
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+         </select>
+         <br><br>
+         <input type="submit" id="inputstyle">
+         </form>
+         <marquee direction="right" scrollamount="10"><strong>*do not close the window before finishing the payment.*</strong></marquee>
+         <footer id="bottom">
+            &copy;All rights Reserved.
+         </footer>
+
+
+</body>
+</html>
